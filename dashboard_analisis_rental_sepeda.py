@@ -17,8 +17,8 @@ import streamlit as st
 from google.colab import drive
 drive.mount('/content/drive')
 
-day_df = pd.read_csv('/content/drive/My Drive/Colab Notebooks/Analisis Data/day.csv')
-hour_df = pd.read_csv('/content/drive/My Drive/Colab Notebooks/Analisis Data/hour.csv')
+day_df = pd.read_csv('https://raw.githubusercontent.com/rifakhaira/Analisis-Data-Rental-Sepeda/refs/heads/main/day.csv')
+hour_df = pd.read_csv('https://raw.githubusercontent.com/rifakhaira/Analisis-Data-Rental-Sepeda/refs/heads/main/hour.csv')
 
 datetime_columns = ["dteday"]
 

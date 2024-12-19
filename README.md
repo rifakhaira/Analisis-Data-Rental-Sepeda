@@ -1,6 +1,6 @@
 ### Tugas Analisis Data Dicoding : Bike Sharing
 
-# Setup Environmet
+# Setup Environment
 - conda create--name main-ds python=3.9
 - conda active main-ds
 - pip install -r requirements.txt
